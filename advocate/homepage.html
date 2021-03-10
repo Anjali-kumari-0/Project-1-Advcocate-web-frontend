@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+    <title>homepage</title>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/e1b283836e.js" crossorigin="anonymous"></script>
+        <style>
+            .topicon {
+                background-color:rgb(255, 213, 161);
+                background-clip: initial;
+                background-repeat: no-repeat;
+            }
+            * {
+                background-color: white;
+            }
+            .topnav {
+                background-color: rgb(51, 15, 15) ;
+                text-align: center;
+                text-decoration: solid white;
+                padding: 2%;
+                overflow: hidden;
+                
+            }
+            .topnav a {
+                border: 2px;
+                display: block;
+                color:black;
+                padding: 5px 5px;
+                text-decoration: none;
+                font-size: 20px;
+            }
+            .active {
+                background-color:rgb(255, 213, 161) ;
+                color: blueviolet;
+
+            }
+            .topnav a:hover {
+                background-color: rgb(202, 144, 73);
+                color: blue;
+            }
+            .about {
+                border: 5px;
+                padding: 5%;
+                background-color: rgb(255, 213, 161);
+                
+            }
+            .aabout {
+                text-align: top left;
+                background-color:rgb(255, 213, 161)
+            }
+            .question {
+                text-align: center;
+                background-color: rgb(255, 213, 161);
+                border: 5px;
+                padding: 5px;
+            }
+            .home {
+                
+                
+                width: 100%;
+            }
+            p {
+                text-align: center;
+            }
+            .footer {
+                background-color: rgb(51, 15, 15);
+                text-align: center;
+                
+            }
+            ul .list {
+                display: inline-block;
+                border-radius: 5px;
+                padding: 5px;
+                background-color:  rgb(49, 15, 15) ;
+
+            }
+            ul li {
+                display: inline-block;
+                
+                align-items: center;
+                border: 100px;
+                border-color: white;
+                padding: 50px;
+            }
+            .law li:hover {
+                background-color: rgb(245, 179, 98);
+                color: blue;
+            }
+            h3 {
+                text-align: center;
+                color: rgb(75, 47, 13);
+            }
+            .survices {
+                border-radius: 5px  ;
+                border-color: rgb(250, 216, 175);
+            }
+            .social {
+                background-color:rgb(255, 213, 161);
+            }
+            .welfair {
+                background-color:rgb(255, 213, 161);
+            }
+            .footer li {
+                display: inline-block;
+            }
+            .list li {
+                padding: 10px;
+            }
+            .amyfoter {
+                background-color:  rgb(51, 15, 15);
+                color: white;
+                
+            }
+            h5 i {
+                color: black;
+                
+            }
+            .as {
+                background-color:rgb(51, 15, 15) ;
+                 
+            }
+            h4  {
+                background-color: rgb(255, 213, 161);
+                text-align: center;
+            }
+            .con  {
+                background-color:  rgb(51, 15, 15);
+                color: white;
+            }
+            .cob  {
+                background-color:  rgb(51, 15, 15);
+                color: white;
+            }
+            .coa {
+                background-color: rgb(51, 15, 15);
+            }
+            .coc {
+                background-color: rgb(51, 15, 15);
+            }
+            .li1 {
+                background-color: rgb(51, 15, 15);
+                color: white;
+
+            }
+            .li2 {
+                background-color: rgb(51, 15, 15);
+                color: white;
+
+            }
+            .li4 {
+                background-color: rgb(51, 15, 15);
+                color: white;
+
+            }
+            .li1 {
+                background-color: rgb(51, 15, 15);
+                color: white;
+
+            }
+            .li3 {
+                background-color: rgb(51, 15, 15);
+                color: white;
+
+            }
+            .li5 {
+                background-color: rgb(51, 15, 15);
+                color: white;
+
+            }
+            .so1 {
+                background-color: rgb(255, 213, 161);
+                color: black;
+            }
+            .rss {
+                background-color: rgb(255, 213, 161);
+                color: black;
+                text-align: center;
+            } 
+            .rss1 {
+                background-color: rgb(255, 213, 161);
+                color: black;
+                text-align: center;
+            } 
+            .ci {
+                background-color: rgb(255, 213, 161);
+                color: black;
+                
+            }
+            .ci1 {
+                background-color: rgb(255, 213, 161);
+                color: black;
+            }
+            .ci2 {
+                background-color: rgb(255, 213, 161);
+                color: black;
+            }
+            .raj {
+                background-color:  rgb(255, 213, 161);
+                color: black;
+            }
+            .form {
+                border-radius: 10px;
+                background-color: rgb(255, 213, 161);
+                padding: 20px;
+                border: 10px solid white;
+                box-sizing: border-box;
+                display: inline-block;
+                margin: 10px 0;
+                width: 500px;
+                text-align: center;
+                
+            }
+            input[type=submit]:hover {
+                background-color: rgb(56, 17, 17);
+                color: white;
+            }
+            input[type=submit] {
+                background-color:rgb(252, 185, 103);
+                margin: 8px;
+                border: none;
+                padding: 10px 15px;
+                color: black;
+            }
+            input[id=comment] {
+                height: 80px;
+                width: 200px;
+            }
+            input[id=name] {
+                height: 30px;
+                width: 180px;
+            }
+            .amore {
+                text-align: center;
+                background-color: rgb(255, 213, 161);
+                
+            }
+            .acomment {
+                display: inline;
+                align-items: center;
+            }
+            .nk2 {
+                color: black;
+                background-color:rgb(255, 213, 161) ;
+            }
+            .nk1 {
+                color: black;
+                background-color:rgb(255, 213, 161) ;
+            }
+            .nkd {
+                color: black;
+                background-color:rgb(255, 213, 161) ;
+            }
+            .nkc {
+                color: black;
+                background-color:rgb(255, 213, 161) ;
+            }
+            .nehakakkar {
+                border-radius: 3px;
+                background-color: rgb(255, 213, 161);
+                padding: 15px;
+                border: 5px solid white;
+                box-sizing: border-box;
+                display: inline-block;
+                margin: 7px 0;
+                width: 500px;
+                text-align: center;
+            }
+            .line {
+                margin-right: 5%;
+                margin-left: 5%;
+                color: rgb(175, 142, 142);
+            }
+            .mylink {
+                color: white;
+                background-color:rgb(51, 15, 15) ;
+                
+            }
+            .copy {
+                color: white;
+                background-color: rgb(163, 78, 78);
+            }
+            .alink {
+                
+                display: inline-block;
+                
+                align-items: center;
+                border: 100px;
+                border-color:rgb(51, 15, 15)
+                
+            }
+            ul .link {
+                background-color:  rgb(51, 15, 15) ;
+                
+            }
+            
+            
+            
+        </style>
+
+    </head>
+    <body>
+        <div class="topicon">
+            <i class="fa fa-balance-scale" aria-hidden="true">Bhola Rajwar</i>
+        </div>
+        <div class="topnav" id="mytopnov">
+            <a href="#home" class="active">home</a>
+            <a href="survices.html">survices</a> 
+            <a href="social.html">social work</a> 
+            <a href="contact.html">contact</a> 
+            <a href="about.html">about</a> 
+                  
+        </div>
+        <div class="home" >
+            <img src="bhola.jpeg" width="100%">
+            
+            
+        </div>
+        <div class="about" id="myabout">
+            <ul class="papapic">
+                <li class="qqqq"><img src="image.jpeg" class="imagepapa"  width="250px" height="350px"></li>
+                  <li class="qqqq2"> <p class="aabout"><h1><b>about</b></h1><br>
+                    <b><strong>BHOLA  RAJWAR</strong></b><br>
+
+                    <br>
+                    <b><strong>Occupation</strong></b>-      Law Practitioner<br>
+                    <b><strong>AT</strong></b>-  CIVIL COURT DHANBAD <br>
+                    <b><strong>Education</strong></b><br>
+                    .  <i>Matric</i>    -           S.S. High School Baghmara , Dhanbad , JHARKHAND<br>
+                    .  <i>Intermediat Arts</i>   - Baghmara Collage Baghmara Dhanbad <br>
+                    .  <i>B.A</i>   -   Baghmara Collage Baghmara <br>
+
+                    .  <i><b>L.L.B</b></i>   - <i>Law Collage Dhanbad Jharkhand</i><br>
+                    <b><strong>L.L.B Passed in</strong></b> - 2001<br>
+                    <b><strong>Law Practice Area</strong></b> - CIVIL, CRIMINAL , REVENUE <br>
+                    <p>Enrolled in <i>CIVIL COURT DHANBAD</i> as Advocate in the year <b>2002</b></p><br>
+                    <a href="about.html">more...</a>
+
+                   
+                </li></p>
+            </ul>
+        </div>
+        <div class="question">
+            <p><i>for any quaries and question <a href="#">click hear</a><br>
+                <br>
+                AND<br>
+                <br>
+            want appoinment <a href="#">click here</a></i></p>
+        </div>
+        <div class="survices" id="mysurvices">
+            <b><strong><h3>SURVICES</h3></strong></b><br>
+            <ul class="law" id="mylaw">
+                <li><a href="#"><img src="business.png" width="100px" height="100px"></a></li>
+                <li><a href="#"><img src="cyber-crime.png" width="100px" height="100px"></a></li>
+                <li><a href="#"><img src="civil.png" width="100px" height="100px"></a></li>
+                <li><a href="#"><img src="consumer.png" width="100px" height="100px"></a></li>
+                <li><a href="#"><img src="criminal.png" width="100px" height="100px"></a></li>
+                <br>
+                <br>
+                <li><a href="#"><img src="business.png" width="100px" height="100px"></a></li>
+                <li><a href="#"><img src="business.png" width="100px" height="100px"></a></li>
+                <li><a href="#"><img src="business.png" width="100px" height="100px"></a></li>
+                <li><a href="#"><img src="business.png" width="100px" height="100px"></a></li>
+                <li><a href="#"><img src="business.png" width="100px" height="100px"></a></li>
+                
+
+
+            </ul><br>
+
+            <br>
+
+        </div>
+        <div class="social" id="mysocial">
+            <h3 class="rss1"><b class="so1">SOCIAL ACTIVITY</b></h3>
+            <p><b class="raj"><h4 class="raj"> 1) <cite class="ci"> General Sceretary </cite> of - RAJWAR SAMAJ SUDHAR SAMITI (KENDRYA COMMITY) JHARKHAND STATE</h4></b><br>
+                <b><h4> 2) <cite class="ci1"> District Mahamantri </cite> of -DHANBAD ZILA CONGRESS COMMITY</h4></b><br>
+                <b><h4> 3) <cite class="ci2">  Sceretary </cite> of - NETAJEE SUBHASH VIDYA MANDIR DUMRA , BAGHMARA , DHANBAD</h4></b><br>
+                <a href="social.html" class="amore">more...</a>
+                
+            </p>
+            
+            <ul class="welfair">
+                <li><img src="firsts.jpeg" width="150px" height="100px"></li>
+                <li><img src="secondp.jpeg" width="150px" height="100px"></li>
+                <li><img src="thirdp.jpeg" width="150px" height="100px"></li>
+                <li><img src="fourthp.jpeg" width="150px" height="100px"></li>
+                
+            </ul>
+            <p>
+                <b>If you want to part of our Team then </b><a href="#"> Click here</a>
+
+            </p>
+            <ul class="acomment">
+
+            <div class="form" id="myform">
+                
+                    <li>
+                <form action="/action_page.php">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="name..." name="fname"><br>
+
+                    <br>
+
+                    <label for="commment">Comment</label>
+                    <input type="text" id="comment" placeholder="Comment..." name="fcomment" width="100px" height="500px"><br>
+
+                    <br>
+                    <input type="submit" value="Submit">
+                
+                </form></li></div>
+                <li class="neha">
+                    <div class="nehakakkar">
+                    <h4 class="ch"> 200 Comments and<br>top 4 comment is:-</h4>
+                    <h6 class="nk1"><b class="nk2">Rani Devi</b> <br>  22/01/2021-<br> thank you for help<hr>
+                    <b class="nk2">Laxmi Rajwar</b> <br> 
+                    22/12/2020<br>
+                    thank you for help<hr>
+                    <b class="nk2">Anjali Sharma</b> <br> 
+                    o8/12/2020<br>
+                    thank you for help<hr>
+                    <b class="nk2">Lokesh Kashayap</b><br> 
+                    20/11/2020<br>
+                    thank you for help </h6></div>
+
+                </li></ul>
+            
+                                                             
+        </div>
+        <div class="footer" id="myfooter">
+            <h3 class="as"><b class="cob">contact</b></h3><br>
+            <ul class="list">
+                <h5 class="amyfoter"><li class="a1a"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                <li class="a1a"><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                    <li class="a1a"><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                    <li class="a1a"><i class="fa fa-telegram" aria-hidden="true"></i></i></li> 
+                    
+                </ul></h5>
+            <br>
+            <h4 class="amyfoter">
+                <b class="con">Email Id </b>- <a href="bholarajwar6271@gmail.com" class="li1">bholarajwar6271@gmail.com</a><br><br><hr class="line">
+                <br><b class="coa">Address</b> - Dumra
+                (Near B.C.C.L hospital) , Dhanbad , Jharkhand , India <br>
+                <br><hr class="line">
+                <b class="coc">usefull links</b><br>
+                <br>
+                if you want to be a part of RAJWAR SAMAJ SUDHARAK then - <a href="#" class="li2"> .  . Click Here</a><br>
+                For Appoinment - <a href="#" class="li3"> .   . Click Here</a><br>
+                For any Queries and Question.  - <a href="#" class="li4">.   .  Click Here</a><br>
+                <br> 
+                 <br> 
+                 <ul class="alink">
+                     <li class="llink">
+                 <a class="mylink" href="about.html">About</a><br>
+                 <a class="mylink" href="survices.html">Survices</a><br>
+                 <a class="mylink" href="contact.html">Contact</a><br>
+                 <a class="mylink" href="social.html">social work</a><br></li>
+                 <li class="llink"">
+                    <a class="mylink" href="about.html">Appoinment</a><br>
+                    <a class="mylink" href="survices.html"> Queries</a><br>
+                    <a class="mylink" href="contact.html">group</a><br>
+                    <a class="mylink" href="social.html">membership</a><br></li>
+
+                 </li>
+                 <li class="llink">
+                    <a class="mylink" href="about.html">facebook</a><br>
+                    <a class="mylink" href="survices.html"> twitter</a><br>
+                    <a class="mylink" href="contact.html">instagram</a><br>
+                    <a class="mylink" href="social.html">whatsapp</a><br></li>
+
+                 </li>
+                </ul><br>
+                <a href="#" class="li5">legal,privacy </a>
+            </h4>
+            <hr class="line">
+            
+            <h5 class="copy">@copyright<i class="fa fa-copyright" aria-hidden="true"> zxcvbnm</i></h5>
+            
+        </div>
+        </div>
+
+    </body>
+</html>
